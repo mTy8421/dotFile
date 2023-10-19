@@ -1,3 +1,3 @@
 # dotFille
 
-test
+source install.sh 
