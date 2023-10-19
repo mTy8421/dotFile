@@ -3,6 +3,7 @@
 ## Change theme to tango && dark
 
 #########################
+sudo apt-get install ca-certificates curl gnupg lsb-release -y
 ### Install ZSH
 sudo apt-get install zsh -y
 
