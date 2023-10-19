@@ -1,3 +1,3 @@
 # dotFille
-`cd dotfile
-source install.sh`
+`cd dotfile`
+`source install.sh`
