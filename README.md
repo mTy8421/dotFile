@@ -1,3 +1,2 @@
 # dotFille
-
-source install.sh 
+`source install.sh`
