@@ -1,4 +1,7 @@
 ### Install Node js
+
+sudo snap install nodejs --classic
+
 # installs nvm (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
@@ -17,7 +20,7 @@ sudo snap install nvim --classic
 ###
 
 ### install tree-sitter
-sudo npm install -g tree-sitter-cli
+npm install -g tree-sitter-cli
 ###
 
 ###Ohter function
@@ -55,10 +58,12 @@ sudo dpkg -i bottom_0.9.6_armhf.deb
 
 #### AstroNvim
 mv ~/.config/nvim ~/.config/nvim.bak
+
 mv ~/.local/share/nvim ~/.local/share/nvim.bak
 mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 
-sudo git clone --depth 1 https://github.com/AstroNvim/AstroNvim ~/.config/nvim
+git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
+rm -rf ~/.config/nvim/.git
 nvim
 ###
