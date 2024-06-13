@@ -1,6 +1,6 @@
 ### Install Node js
 
-sudo snap install nodejs --classic
+# sudo snap install nodejs --classic
 
 # installs nvm (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
