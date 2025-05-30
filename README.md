@@ -1,5 +1,5 @@
 # dotFille
 ```shell
-cd dotfile
+cd dotfiles
 source install.sh
 ```
