@@ -1,20 +1,5 @@
 ### Install Node js
 
-# sudo snap install nodejs --classic
-
-# installs nvm (Node Version Manager)
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
-
-# download and install Node.js
-nvm install 20
-
-# verifies the right Node.js version is in the environment
-node -v # should print `v20.14.0`
-
-# verifies the right NPM version is in the environment
-npm -v # should print `10.7.0`
-####
-
 ### install neovim
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
 sudo rm -rf /opt/nvim
