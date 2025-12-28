@@ -1,23 +1,7 @@
-#!/usr/bin/bash
+## install neovim
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
+sudo rm -rf /opt/nvim-linux-x86_64
+sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
 
-
-################################
-### Add neovim unstable repo
-sudo add-apt-repository ppa:neovim-ppa/unstable
-
-
-################################
-### Install NeoVIM && Plugins
-sudo apt install -y neovim
-
-### Make a neovim config directory
-mkdir ~/.config
-cp -r ./nvim ~/.config
-
-nvim +PackerInstall +qall
-nvim +PackerUpdate +qall
-nvim +PackerSync +qall
-
-nvim +PackerInstall +qall
-nvim +PackerUpdate +qall
-nvim +PackerSync +qall
+echo export PATH="$PATH:/opt/nvim-linux-x86_64/bin" >> ~/.bashrc
+echo export PATH="$PATH:/opt/nvim-linux-x86_64/bin" >> ~/.zshrc
