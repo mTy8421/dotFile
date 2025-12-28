@@ -23,22 +23,6 @@ sudo add-apt-repository ppa:daniel-milde/gdu
 sudo apt-get update
 sudo apt-get install gdu
 
-# x86-64
-curl -LO https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_0.12.2-1_amd64.deb
-sudo dpkg -i bottom_0.12.2-1_amd64.deb
-
-# ARM64
-curl -LO https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_0.12.2-1_arm64.deb
-sudo dpkg -i bottom_0.12.2-1_arm64.deb
-
-# ARM
-curl -LO https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_0.12.2-1_armhf.deb
-sudo dpkg -i bottom_0.12.2-1_armhf.deb
-
-# musl-based
-curl -LO https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom-musl_0.12.2-1_amd64.deb
-sudo dpkg -i bottom-musl_0.12.2-1_amd64.deb
-
 #### AstroNvim
 mv ~/.config/nvim ~/.config/nvim.bak
 
