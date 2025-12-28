@@ -24,18 +24,20 @@ sudo apt-get update
 sudo apt-get install gdu
 
 # x86-64
-curl -LO https://github.com/ClementTsang/bottom/releases/download/0.9.6/bottom_0.9.6_amd64.deb
-sudo dpkg -i bottom_0.9.6_amd64.deb
+curl -LO https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_0.12.2-1_amd64.deb
+sudo dpkg -i bottom_0.12.2-1_amd64.deb
 
 # ARM64
-curl -LO https://github.com/ClementTsang/bottom/releases/download/0.9.6/bottom_0.9.6_arm64.deb
-sudo dpkg -i bottom_0.9.6_arm64.deb
+curl -LO https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_0.12.2-1_arm64.deb
+sudo dpkg -i bottom_0.12.2-1_arm64.deb
 
 # ARM
-curl -LO https://github.com/ClementTsang/bottom/releases/download/0.9.6/bottom_0.9.6_armhf.deb
-sudo dpkg -i bottom_0.9.6_armhf.deb
+curl -LO https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom_0.12.2-1_armhf.deb
+sudo dpkg -i bottom_0.12.2-1_armhf.deb
 
-###
+# musl-based
+curl -LO https://github.com/ClementTsang/bottom/releases/download/0.12.2/bottom-musl_0.12.2-1_amd64.deb
+sudo dpkg -i bottom-musl_0.12.2-1_amd64.deb
 
 #### AstroNvim
 mv ~/.config/nvim ~/.config/nvim.bak
